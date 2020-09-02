@@ -4,11 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Gościniec Jagoda</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/41074f745e.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 
 </html>
@@ -23,19 +33,184 @@
             <li><a href="#">Wesela</a></li>
             <li><a href="#">Galeria</a></li>
             <li><a href="#">Kontakt</a></li>
-        </ul>
+        </ul>     
     </header>
+    <h1 id="headerH1" class="text-center">Wyjątkowe miejsce na Twój wyjątkowy dzień</h1>
+    <a href="#" class="whiteButtonLink headerButton">
+        <div class="whiteButton text-center col-2 offset-5 ">
+            <h3>Sprawdź ofertę</h3>
+        </div>
+    </a>
     <section class="banner"></section>
     <script type="text/javascript">
-        window.addEventListener("scroll", function(){
+        window.addEventListener("scroll", function () {
             var header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0);
         })
     </script>
-    <article class="col-10 offset-1 mt-5 mb-5">
-
+    <article class="col-12 m-0 p-0">
+        <div class="row m-0 p-0" style="background-color: #cfa670; color: #fff;">
+            <div class="col-4 offset-1 text-center pt-5">
+                <h2 class="mb-4 mt-5">Restauracja</h2>
+                <p>Gościniec Jagoda to doskonałe miejsce na zorganizowanie
+                    kameralnego przyjęcia rodzinnego czy też oficjalnego bankietu firmowego
+                </p>
+                <p></p>
+                Naszym klientom oferujemy wyśmienite specjały kuchni śląskiej połączonej
+                z przysmakami innych kuchni świata,
+                a na deser polecamy domowej roboty tradycyjne wypieki
+                </p>
+                <p></p>
+                Przyjazna i ciepła atmosfera lokalu, fachowa obłsuga,
+                a przede wszystkim wyśmienita kuchnia tworzą niepowtarzalny swojski klimat
+                </p>
+            </div>
+            <img class="col-6 offset-1 p-0" src="wine2.jpg">
+        </div>
+        <div class="row m-0 p-0" style="background-color: rgb(4, 18, 34); color: #fff;">
+            <img class="col-6 p-0" src="kitchen.jpg">
+            <div class="col-4 offset-1 text-center mt-5">
+                <h2 class="mb-4 mt-5">Restauracja</h2>
+                <p>Gościniec Jagoda to doskonałe miejsce na zorganizowanie
+                    kameralnego przyjęcia rodzinnego czy też oficjalnego bankietu firmowego
+                </p>
+                <p></p>
+                Naszym klientom oferujemy wyśmienite specjały kuchni śląskiej połączonej
+                z przysmakami innych kuchni świata,
+                a na deser polecamy domowej roboty tradycyjne wypieki
+                </p>
+                <p></p>
+                Przyjazna i ciepła atmosfera lokalu, fachowa obłsuga,
+                a przede wszystkim wyśmienita kuchnia tworzą niepowtarzalny swojski klimat
+                </p>
+            </div>
+        </div>
     </article>
-    <footer >
-
+    <!-- <div id="homepage_bottom_image"></div> -->
+    <article id="offer">
+        <h1 class="text-center pb-4">Czym się zajmujemy</h1>
+        <div class="row">
+            <div class="offerBlock text-center p-5">
+                <i class="fas fa-heart offerIcon"></i>
+                <h3 class="mt-2">Wesela</h3>
+                <p>
+                    Gościniec Jagoda to idealne miejsce
+                    by wraz z bliskimi świętować Wasz wyjątkowy dzień.
+                </p>
+            </div>
+            <div class="offerBlock text-center p-5">
+                <i class="fas fa-cross offerIcon"></i>
+                <h3 class="mt-2">Komunie</h3>
+                <p>
+                    Gościniec Jagoda to idealne miejsce
+                    by wraz z bliskimi świętować Wasz wyjątkowy dzień.
+                </p>
+            </div>
+            <div class="offerBlock text-center p-5">
+                <i class="fas fa-baby-carriage offerIcon"></i>
+                <h3 class="mt-2">Chrzciny</h3>
+                <p>
+                    Gościniec Jagoda to idealne miejsce
+                    by wraz z bliskimi świętować Wasz wyjątkowy dzień.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offerBlock text-center p-5">
+                <i class="fas fa-birthday-cake offerIcon"></i>
+                <h3 class="mt-2">Urodziny</h3>
+                <p>
+                    Gościniec Jagoda to idealne miejsce
+                    by wraz z bliskimi świętować Wasz wyjątkowy dzień.
+                </p>
+            </div>
+            <div class="offerBlock text-center p-5">
+                <i class="fas fa-handshake offerIcon"></i>
+                <h3 class="mt-2">Bankiety firmowe</h3>
+                <p>
+                    Gościniec Jagoda to idealne miejsce
+                    by wraz z bliskimi świętować Wasz wyjątkowy dzień.
+                </p>
+            </div>
+            <div class="offerBlock text-center p-5">
+                <i class="fas fa-utensils offerIcon"></i>
+                <h3 class="mt-2">Katering</h3>
+                <p>
+                    Gościniec Jagoda to idealne miejsce
+                    by wraz z bliskimi świętować Wasz wyjątkowy dzień.
+                </p>
+            </div>
+        </div>
+    </article>
+    <article class="opinions">
+        <h1 class="text-center mb-4">CO O NAS MÓWIĄ KLIENCI</h1>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <p class="text-center col-4 offset-4">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis dicta dolores perspiciatis
+                        sapiente ipsam voluptate doloremque unde veniam corporis nisi temporibus, vel sit reprehenderit
+                        id consequuntur distinctio aliquid! Odio, alias!
+                    </p>
+                    <h5 class="text-center">Jan Kowalski</h5>
+                </div>
+                <div class="carousel-item">
+                    <p class="text-center col-4 offset-4">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis dicta dolores perspiciatis
+                        sapiente ipsam voluptate doloremque unde veniam corporis nisi temporibus, vel sit reprehenderit
+                        id consequuntur distinctio aliquid! Odio, alias!
+                    </p>
+                    <h5 class="text-center">Małgorzata Rojewska</h5>
+                </div>
+                <div class="carousel-item">
+                    <p class="text-center col-4 offset-4">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis dicta dolores perspiciatis
+                        sapiente ipsam voluptate doloremque unde veniam corporis nisi temporibus, vel sit reprehenderit
+                        id consequuntur distinctio aliquid! Odio, alias!
+                    </p>
+                    <h5 class="text-center">Agnieszka Zielińska</h5>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <a href="#" class="whiteButtonLink">
+            <div class="whiteButton text-center col-2 offset-5 mt-4 ">
+                <h3>Zobacz więcej</h3>
+            </div>
+        </a>       
+    </article>
+    <footer class="p-5">
+        <div class="row">
+            <div class="col-3 offset-1">
+                <h1 class="mb-4">Kontakt</h1>
+                <p>Gościniec Jagoda<br/>Jadwiga Dawid<br/>Ul. Główna 21<br/>46-046 Ligota Turawska</p>
+                <p>
+                    <i class="fas fa-phone"></i> &nbsp; +48 791 232 919 <br/>
+                    <i class="fas fa-phone"></i> &nbsp; +48 774 213 030
+                </p>
+                <p>
+                    <i class="fas fa-envelope"></i> &nbsp; kontakt@gosciniec-jagoda.pl
+                </p>
+            </div>
+            <div class="col-3 ml-5">
+                <h1 class="text-right mb-4">Tu nas znajdziesz</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2522.416465599847!2d18.179133315743606!3d50.78638997952317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47105875bca81555%3A0x6758bf448f00cff7!2sGo%C5%9Bciniec%20Jagoda!5e0!3m2!1spl!2spl!4v1599074474850!5m2!1spl!2spl" width="420" height="240" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="col-3 offset-1 text-right">
+                <h1 class="mb-4">Dołącz do nas</h1>
+                <div class="row ml-5 pl-5">
+                    <h1 class="mr-4"><i class="fab fa-facebook-square"></i></h1>
+                    <h1 class="mr-4"><i class="fab fa-instagram"></i></h1>
+                    <h1 class="mr-4"><i class="fab fa-google-plus-g"></i></h1>
+                </div>            
+            </div>
+        </div> 
     </footer>
 </body>

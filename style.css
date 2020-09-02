@@ -56,6 +56,29 @@ header ul li a{
     transition: 0.6s;
     font-size: 26px;
 }
+header ul li a:hover{
+    text-decoration: none;
+    color:#cfa670;
+}
+#headerH1
+{
+    position: absolute;
+    bottom: 240px;
+    display: flex;
+    z-index: 9999;
+    color: white;
+    left: 330px;
+    font-size: 72px;
+    font-family: Italianno;
+}
+.headerButton
+{
+    width: 100%;
+    position: absolute;
+    bottom: 140px;
+    display: flex;
+    z-index: 9999;
+}
 .banner{
     position: relative;
     width: 100%;
@@ -65,7 +88,11 @@ header ul li a{
 }
 
 header.sticky ul li a{
-    color: rgb(179, 121, 13);
+    color: #cfa670;
+}
+
+header.sticky ul li a:hover{
+    color: rgb(4, 18, 34);
 }
 
 header.sticky .logo{
@@ -77,6 +104,84 @@ header.sticky .logo2{
     transition: 0.6s;
 }
 
-article{
-    height: 200px;
+article {
+    font-family: fira sans;
+}
+
+article h2{
+    font-family: Italianno;
+    font-size: 52px;
+}
+
+#offer
+{
+    background-color: #cfa670;
+    padding: 40px 9%;
+}
+
+#offer h1{
+    color: #fff;
+    font-family: Italianno;
+    font-size: 72px;
+}
+
+.offerBlock{
+    height: auto;
+    width: 32%;
+    margin: 0.5% 0.5%;
+    background-color: #fff;
+    color:#cfa670;
+    border-radius: 2px;
+}
+
+.offerIcon{
+    font-size: 50px;
+}
+
+#homepage_bottom_image {
+    background-image: url(homepage_image.jpg); 
+    width: 100%;
+    height:350px; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: table;
+}
+
+.opinions{
+    background-image: url(opinie.jpg); 
+    background-size: cover;
+    width: 100%;
+    height:500px;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.opinions h1{
+    color: #cfa670;
+}
+
+.whiteButton
+{
+    height: auto;
+    border: solid;
+    border-color: white;
+    border-width: 3px;
+    padding: 2px 14px;
+    border-radius: 2px;
+    transition: 0.8s;
+}
+.whiteButtonLink
+{
+    color: #fff;
+}
+.whiteButtonLink:hover{
+    color: #cfa670;
+    text-decoration: none;
+}
+
+footer{
+    height: 60vh;
+    background-color: rgb(4, 18, 34);
+    color: #fff;
+    font-family: fira sans;
 }
